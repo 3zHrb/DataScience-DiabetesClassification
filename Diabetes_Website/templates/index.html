@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Diabetes Classification</title>
+    <link rel="stylesheet" href="statics/style.css">
+    <script src="statics/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="ProjectDiscription">
+        <h1 id='test'>Diabetes Classification</h1>
+        <h4>Built By: Abdulaziz Alharbi</h4>
+    </div>
+
+    <div class="BodyDiv">
+
+        <h2 id="resultText">Result</h2>
+
+        <form>
+            <label for="Pregnancies">Pregnancies</label><br>
+            <input type="text" id="Pregnancies" placeholder="Pregnancies Count" name="Pregnancies"> <br>
+            <label for="Glucose">Glucose</label><br>
+            <input type="text" id="Glucose" name="Glucose" placeholder="40-200"> <br>
+            <label for="BloodPressure">Blood Pressure</label><br>
+            <input type="text" id="BloodPressure" name="BloodPressure" placeholder="24-122"> <br>
+            <label for="SkinThickness">Skin Thickness</label><br>
+            <input type="text" id="SkinThickness" name="SkinThickness" placeholder="7-99"> <br>
+            <label for="Insulin">Insulin</label><br>
+            <input type="text" id="Insulin" name="Insulin" placeholder="0-850"> <br>
+            <label for="BMI">BMI</label><br>
+            <input type="text" id="BMI" name="BMI" placeholder="1-70"> <br>
+            <label for="DiabetesPedigreeFunction">Diabetes Pedigree Function</label><br>
+            <input type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction" placeholder="0.078-2.5">
+            <br>
+            <label for="Age">Age</label><br>
+            <input type="text" id="Age" name="Age" placeholder="21-150"> <br>
+            <button type="button" onclick="submitButtonClicked()" class="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
+
+<!-- 'Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin',
+       'BMI', 'DiabetesPedigreeFunction', 'Age', 'Outcome' __>
