@@ -5,8 +5,8 @@ function homePageIsLoading() {
 }
 
 function submitButtonClicked() {
-    //document.getElementById('test').innerHTML = document.getElementById('Pregnancies').value;;
-    // $("#test").text($("#Pregnancies").val());
+
+
     Pregnancies = $("#Pregnancies").val();
     Glucose = $("#Glucose").val();
     BloodPressure = $("#BloodPressure").val();
@@ -23,20 +23,6 @@ function submitButtonClicked() {
         "SkinThickness": SkinThickness, "Insulin": Insulin, "BMI": BMI, "DiabetesPedigreeFunction": DiabetesPedigreeFunction,
         "Age": Age
     }
-
-    // $.ajax({
-    //     type: 'POST',
-    //     contentType: 'application/json',
-    //     url: '/Result',
-    //     dataType: 'json',
-    //     data: JSON.stringify(theData),
-    //     success: (theData) => {
-    //         console.log('Flask response: ' + theData)
-    //     },
-    //     error: (theData) => {
-    //         console.log(theData)
-    //     }
-    // });
 
 
 
@@ -55,11 +41,10 @@ function submitButtonClicked() {
 
         if (data == "1") {
             $("#resultText").text("Result: Positive")
-            // $("#resultText").css("color", "#EE204D")
+
 
         } else {
             $("#resultText").text("Result: Negative")
-            // $("#resultText").css("color", "#318CE7")
 
         }
     })
