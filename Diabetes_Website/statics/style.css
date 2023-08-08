@@ -157,3 +157,15 @@ button:hover {
     margin-bottom: 10px;
     text-decoration: underline 3px cyan;
 }
+
+.AboutThisProject {
+    background-color: #23263b;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin: auto;
+    width: 50%;
+    opacity: 0.9;
+}
